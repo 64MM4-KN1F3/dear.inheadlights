@@ -13,8 +13,8 @@ No, that's more words than I care to write for a 'first' post. Later maybe.. Let
 - Blogs are still a thing!
 
 I'm looking forward to having a public scratch-pad again. Somewhere to howl, whimper or chirp into the void.
-
-As a small preview, here are some ponderings I might bore the reader with:
+---
+Here are some ponderings I *might* bore the reader with:
 - Music-related things
 - LLM-related things
 - Etymology/language-related things

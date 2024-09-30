@@ -4,6 +4,10 @@ Auto-redirect from index to latest post.
 
 Proper description in src/config.json
 
+Check if favicon.svg is working
+
+Consider glitch.me - https://blog.glitch.com/post/use-your-own-domain/
+
 DONE
 
 Sort out HTTPS - github automagiked this 🤷

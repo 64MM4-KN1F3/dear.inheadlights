@@ -1,6 +1,6 @@
 ---
 title: Dear Internet..
-publishDate: 2024-10-01
+publishDate: 2024-09-30
 tags: []
 # tags: ["Intro"]
 ---

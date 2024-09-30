@@ -1,5 +1,7 @@
 TODO
 
+Check SEO Optimisation - robots.txt etc.
+
 Promote "Fuck you megacorps" in relevant Reddit threads.
 
 Auto-redirect from index to latest post.

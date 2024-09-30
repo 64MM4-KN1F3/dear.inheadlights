@@ -4,7 +4,7 @@ publishDate: 2024-10-01
 tags: ["howl"]
 ---
 
-The petty squabbling between megacorps like Apple and Google/Alphabet is painful and fucks consumers. There are arguments for walled gardens and associated closed-source mentalities - a control freak has better security in generally.. If I don't want to share my toys then that makes **my toys mine** and no-one elses. But fuck me, there are so many examples where this screws consumers.
+The petty squabbling between megacorps like Apple and Google/Alphabet is painful and fucks consumers. There are arguments for walled gardens and associated closed-source mentalities - a control freak has better security in general.. If I don't want to share my toys then that makes **my toys mine** and no-one elses. But fuck me, there are so many examples where this screws consumers.
 
 In this case maybe you won't have a heap of sympathy. Aging tech bro can't do X with his Y, but I'm sure it's not just me..
 

@@ -1,7 +1,5 @@
 TODO
 
-Fuck you Megacorps
-
 Infinite Cities LLM fine-tune article
 
 Death Stranding review
@@ -13,5 +11,7 @@ Something about ByteBeat
 Something to do with Aphex Twin tools - 
 
 DONE
+
+Fuck you Megacorps 🖕
 
 Intro

@@ -1,0 +1,19 @@
+{
+  "name": "dear.inheadlights",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "new": "node ./scripts/new-post.js"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.1",
+    "astro": "^4.15.9",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15"
+  }
+}

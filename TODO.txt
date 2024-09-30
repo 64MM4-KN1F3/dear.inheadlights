@@ -1,5 +1,7 @@
 TODO
 
+Update README.md
+
 Check SEO Optimisation - robots.txt etc.
 
 Promote "Fuck you megacorps" in relevant Reddit threads.

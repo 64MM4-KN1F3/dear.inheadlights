@@ -14,6 +14,9 @@ export default {
 				'.text-rainbow': {
 					'@apply font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-purple-600': {},
 				},
+				// '.text-redbow': {
+				// 	'@apply font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-purple-600': {},
+				// },
 			};
 
 			addUtilities(newUtilities, ['responsive', 'hover']);

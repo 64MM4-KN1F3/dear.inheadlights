@@ -25,3 +25,7 @@ pnpm-debug.log*
 
 # laziness
 ./preview.sh
+
+# Notes
+IDEAS.txt
+TODO.txt

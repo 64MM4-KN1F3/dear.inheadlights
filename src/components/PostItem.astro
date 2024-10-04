@@ -16,7 +16,7 @@ const { post } = Astro.props;
             {format(post.data.publishDate, "yyyy/MM/dd")}
         </time>
     </p>
-    <a class="hover:text-rainbow" href={`/blog/${post.slug}`}>
+    <a class="hover:text-rainbow" href={`/b/${post.slug}`}>
         <span class="text-lg font-semibold">{post.data.title}</span>
     </a>
 </div>

@@ -1,23 +1,39 @@
 ---
-import { getCollection } from "astro:content";
+import { type CollectionEntry, getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Tag from "../../components/Tag.astro";
 import { format } from "../../lib/utils";
+import type { MarkdownHeading } from 'astro';
+import TableOfContents from '../../components/TableOfContents.astro';
+
 
 export async function getStaticPaths() {
     const allPosts = await getCollection("b");
     var posts = allPosts.filter((p) => !p.data.draft);
-    return posts.map((post) => ({
+    
+    const headings = await Promise.all(
+        posts.map(async (post) => {
+            const data = await post.render();
+            return data.headings;
+        })
+    );
+
+    return posts.map((post, index) => ({
         params: { slug: post.slug },
-        props: { post },
+        props: { post, headings: headings[index] },
     }));
 }
 
-const { post } = Astro.props;
+type Props = {
+  post: CollectionEntry<'b'>;
+  headings: MarkdownHeading[];
+};
+
+const { post, headings } = Astro.props;
 const { Content } = await post.render();
 ---
 
-<BaseLayout pageTitle={post.data.title}>
+<BaseLayout pageTitle={post.data.title} headings={headings}>
     <section class="space-y-6">
         <div class="space-y-3">
             <p class="text-2xl text-rainbow leading-normal">
@@ -33,6 +49,7 @@ const { Content } = await post.render();
             </div>
         </div>
         <article class="prose dark:prose-invert">
+            <TableOfContents headings={headings} />
             <Content />
         </article>
     </section>

@@ -12,11 +12,11 @@ const filteredHeadings = Array.isArray(headings) ? headings.filter((heading) => 
 
 <nav>
   <ul>
-    {filteredHeadings.length > 0 && <h4>Table of Contents</h4>}
+    <!-- {filteredHeadings.length > 0 && <h4>Table of Contents</h4>} -->
     {
       filteredHeadings.map((heading) => (
         <li>
-          <a href={`#${heading.slug}`}>{heading.text}</a>
+          <a class="text-slate-700 dark:text-slate-300 hover:text-rainbow font-semibold" href={`#${heading.slug}`}>{heading.text}</a>
         </li>
       ))
     }

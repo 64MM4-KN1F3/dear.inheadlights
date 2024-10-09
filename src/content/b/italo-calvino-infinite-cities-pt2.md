@@ -8,7 +8,7 @@ tags: ["LLMs", "AI", "LLM fine-tuning", "italo calvino", "invisible cities"]
 
 **TLDR; Fine-tune an LLM to imitate a dead author! Examples** <a class="text-slate-700 dark:text-slate-300 hover:text-rainbow font-semibold" href='/tag/infinite cities'>here</a>.
 
-This is the second part of my experiment. See [part 1](italo-calvino-infinite-cities-pt1) for environment setup and data pre-processing.
+This is the second part of my experiment. See [part 1](../italo-calvino-infinite-cities-pt1) for environment setup and data pre-processing.
 
 ## Project Structure refresher
 Here's our project structure again for reference:

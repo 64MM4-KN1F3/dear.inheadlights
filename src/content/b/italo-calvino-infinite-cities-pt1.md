@@ -8,7 +8,7 @@ tags: ["LLMs", "AI", "LLM fine-tuning", "italo calvino", "invisible cities"]
 
 **TLDR; Fine-tune an LLM to imitate a dead author! Examples** <a class="text-slate-700 dark:text-slate-300 hover:text-rainbow font-semibold" href='/tag/infinite cities'>here</a>.
 
-We'll approach this in stages. Skip ahead if you like! This post is primarily environment setup and data preparation. Jump to [part 2](italo-calvino-infinite-cities-pt2) for fine-tuning.
+We'll approach this in stages. Skip ahead if you like! This post is primarily environment setup and data preparation. Jump to [part 2](../italo-calvino-infinite-cities-pt2) for fine-tuning.
 
 
 ## Preamble
@@ -226,5 +226,5 @@ To run the script, make sure your virtual environment is activated and execute:
 ```
 With our dataset prepared, we're one step closer to generating infinite cities. 
 
-To be continued in [part 2](italo-calvino-infinite-cities-pt2)!
+To be continued in [part 2](../italo-calvino-infinite-cities-pt2)!
 # 🤖

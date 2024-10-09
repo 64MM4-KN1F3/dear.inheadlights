@@ -1,5 +1,5 @@
 ---
-title: Twin Cities - Zethes
+title: Twin Cities - Zethes-Zethes
 publishDate: 2024-10-05
 tags: ["infinite cities","🤖"]
 ---

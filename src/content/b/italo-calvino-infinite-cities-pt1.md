@@ -140,7 +140,6 @@ your_project/
 ├── .gitignore # Add anything you don't want to track with git
 ├── .python-version # Ignore, uv will manage this
 ├── dataset_preparation.py # TBC
-├── generate_descriptions.py # TBC
 ├── fine_tune_model.py # TBC
 ├── invisible_cities.csv # Raw training data
 ├── training_data.csv # Formatted training data with 'input' and 'output' columns

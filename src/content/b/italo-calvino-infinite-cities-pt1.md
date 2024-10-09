@@ -78,7 +78,7 @@ Now direct your web browser to `http://localhost:3000` to access OpenWebUI.
 
 ## Tuning Environment
 
-Python is great but I can't remember the number of times I've ended up in python-dependency hell. To avoid this I recommend the use of uv to set up your environment. uv rolls together package management, package management and other much-needed quality-of-life capabilities for python scripting and projects.
+Python is great but I can't remember the number of times I've ended up in python-dependency hell. To avoid this I recommend the use of uv to set up your environment. uv rolls together package management, environment management and other much-needed quality-of-life capabilities for python scripting and projects.
 
 Grab [uv](https://github.com/astral-sh/uv) with homebrew (or OS package manager of your choice):
 ```shell

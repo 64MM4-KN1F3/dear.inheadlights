@@ -11,7 +11,7 @@ const filteredHeadings = Array.isArray(headings) ? headings.filter((heading) => 
 ---
 
 <nav>
-  <ul>
+  <ol>
     <!-- {filteredHeadings.length > 0 && <h4>Table of Contents</h4>} -->
     {
       filteredHeadings.map((heading) => (
@@ -20,5 +20,5 @@ const filteredHeadings = Array.isArray(headings) ? headings.filter((heading) => 
         </li>
       ))
     }
-  </ul>
+  </ol>
 </nav>

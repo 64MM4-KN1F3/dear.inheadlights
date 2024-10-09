@@ -448,4 +448,5 @@ Now jump into OpenWebUI at `http://localhost:3000` and it's time to generate a n
 
 This post got super long so I'll drop in a part-3 soon with iterations and afterthoughts. If you made it this far, thanks for reading!
 
-# [👋](https://www.geelongaustralia.com.au)
+
+[👋](https://www.geelongaustralia.com.au)

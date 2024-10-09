@@ -389,7 +389,7 @@ After training, we save the fine-tuned model and tokenizer for future use.
 
 By executing this script, we're customizing the language model to generate descriptions of cities in the style of *Invisible Cities*. With the fine-tuned model, you can prompt it to create new, whimsical cityscapes that perhaps even Kublai Khan would find intriguing.
 
-Because I'm a little paranoid about my laptop going to sleep and messing things up. In a separate terminal I grabbed the process id of our training run and ensured wakefulness while the fine-tuning goes on:
+Because I'm a little paranoid about my laptop going to sleep and messing things up, in a separate terminal I grabbed the process id of our training run and ensured wakefulness while the fine-tuning goes on:
 
 ```shell
 /your_project/ % uv run fine_tune_model_peft.py

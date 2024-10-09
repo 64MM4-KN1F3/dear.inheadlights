@@ -385,13 +385,6 @@ tokenizer.save_pretrained('./fine-tune-' + iteration)
 
 After training, we save the fine-tuned model and tokenizer for future use.
 
-**Notes and Considerations**
-
-- **Hardware Limitations**: Fine-tuning large models can be resource-intensive. Adjusting batch sizes and using gradient accumulation helps mitigate this.
-- **Training Time**: Be prepared for the training process to take some time, especially on a laptop.
-- **Model Path**: Ensure that `model_name` points to the correct location of your pre-trained model.
-- **BF16 Precision**: Bfloat16 precision can improve training speed and reduce memory usage if your hardware supports it.
-
 **Wrapping Up**
 
 By executing this script, we're customizing the language model to generate descriptions of cities in the style of *Invisible Cities*. With the fine-tuned model, you can prompt it to create new, whimsical cityscapes that perhaps even Kublai Khan would find intriguing.

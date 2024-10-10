@@ -392,7 +392,7 @@ By executing this script, we're customizing the language model to generate descr
 Because I'm a little paranoid about my laptop going to sleep and messing things up, in a separate terminal I grabbed the process id of our training run and ensured wakefulness while the fine-tuning goes on:
 
 ```shell
-/your_project/ % uv run fine_tune_model_peft.py
+/your_project/ % uv run fine_tune_model.py
 ```
 
 ```shell
@@ -400,7 +400,7 @@ Because I'm a little paranoid about my laptop going to sleep and messing things 
 
   PID TTY           TIME CMD
 42892 ttys001    0:00.23 /bin/zsh -il
-83642 ttys001    0:00.02 uv run fine_tune_model_peft.py
+83642 ttys001    0:00.02 uv run fine_tune_model.py
 42984 ttys003    0:00.08 /bin/zsh -i
 
 % caffeinate -w 42892

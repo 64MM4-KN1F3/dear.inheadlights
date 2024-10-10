@@ -190,7 +190,7 @@ from tqdm import tqdm
 **Setting Up the Training Iteration and Device**
 
 ```python
-iteration = "01"  # Increased tokenizer max length to 512
+iteration = "01"  # To keep track of multiple tuning iterations
 
 device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
 ```

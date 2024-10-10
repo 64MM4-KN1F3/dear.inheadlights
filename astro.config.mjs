@@ -8,6 +8,7 @@ import expressiveCode from 'astro-expressive-code';
 export default defineConfig({
   integrations: [tailwind(), expressiveCode()],
   site: 'https://inheadlights.com',
+  output: 'static',
   markdown: {
     rehypePlugins: [[targetBlank, { domain: 'inheadlights.com' }]],
   },

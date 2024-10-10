@@ -64,10 +64,10 @@ While we're at it, let's get a copy of the latest Mistral7B model that we'll use
 ```
 I highly recommend Open WebUI as a web front end to Ollama. The OpenWebUI team recommend running it in a docker container, so [download](https://www.docker.com/products/docker-desktop/) and install Docker Desktop, then use the following script to install OpenWebUI. You can also use the same script to update OpenWebUI later!
 ```shell
-docker pull ghcr.io/open-webui/open-webui:main
-docker stop open-webui
-docker rm open-webui
-docker run -d -p 3000:8080 -e WEBUI_AUTH=false --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+% docker pull ghcr.io/open-webui/open-webui:main
+% docker stop open-webui
+% docker rm open-webui
+% docker run -d -p 3000:8080 -e WEBUI_AUTH=false --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 Bundle the above into a shell script called `update-OpenWebUI.sh` if you like to use later. Remember to make that script excecutable with:
 ```shell

@@ -431,7 +431,8 @@ llama.cpp% deactivate
 ## Import your .gguf model to Ollama
 Create a file called 'Modelfile' with paths to both the base model and fine-tune. The base path in FROM, the fine-tune path in ADAPTER. More details on the Modelfile format [here](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
 
-```shell #Modelfile
+```yaml
+# Modelfile
 FROM /path/to/Mistral-7B-v0.3
 ADAPTER /path/to/mistral7B-v0.3-inf-cities-fp16.gguf
 ```

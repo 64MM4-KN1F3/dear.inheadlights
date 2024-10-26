@@ -56,22 +56,22 @@ Running local LLMs on Mac Silicon with llama.cpp, Ollama and OpenWebUI is a grea
 
 Clone llama.cpp (put it somewhere you'll remember by substituting `/path/to/` with an appropriate location):
 ```shell
-% git clone https://github.com/ggerganov/llama.cpp.git /path/to/llama.cpp
+git clone https://github.com/ggerganov/llama.cpp.git /path/to/llama.cpp
 ```
 While we're at it, let's get a copy of the latest Mistral7B model that we'll use as our base for fine-tuning. Again, chose an appropriate path, we'll need this later:
 ```shell
-% git clone https://huggingface.co/mistralai/Mistral-7B-v0.3 /path/to/Mistral-7B-v0.3
+git clone https://huggingface.co/mistralai/Mistral-7B-v0.3 /path/to/Mistral-7B-v0.3
 ```
 I highly recommend Open WebUI as a web front end to Ollama. The OpenWebUI team recommend running it in a docker container, so [download](https://www.docker.com/products/docker-desktop/) and install Docker Desktop, then use the following script to install OpenWebUI. You can also use the same script to update OpenWebUI later!
 ```shell
-% docker pull ghcr.io/open-webui/open-webui:main
-% docker stop open-webui
-% docker rm open-webui
-% docker run -d -p 3000:8080 -e WEBUI_AUTH=false --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker pull ghcr.io/open-webui/open-webui:main
+docker stop open-webui
+docker rm open-webui
+docker run -d -p 3000:8080 -e WEBUI_AUTH=false --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 ```
 Bundle the above into a shell script called `update-OpenWebUI.sh` if you like to use later. Remember to make that script excecutable with:
 ```shell
-% chmod +x update-OpenWebUI.sh
+chmod +x update-OpenWebUI.sh
 ```
 
 Now direct your web browser to `http://localhost:3000` to access OpenWebUI. 
@@ -82,52 +82,52 @@ Python is great but I can't remember the number of times I've ended up in python
 
 Grab [uv](https://github.com/astral-sh/uv) with homebrew (or OS package manager of your choice):
 ```shell
-% brew install uv
+brew install uv
 ```
 Create your project home then we'll jump into VSCode:
 ```shell
-% mkdir your_project
-% cd your_project
-% code .
+mkdir your_project
+cd your_project
+code .
 ```
 In VSCode, open a terminal with <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>\`</kbd> or via the menu: *Terminal > New Terminal*
 
 In the terminal window initialise uv:
 ```shell
-% uv init
+uv init
 ```
 Let's install a version of python supported by pytorch:
 ```shell
-% uv python install '>=3.8'
+uv python install '>=3.8'
 ```
 Create the uv environment then activate it:
 ```shell
-% uv venv
-% source .venv/bin/activate
+uv venv
+source .venv/bin/activate
 ```
 *(later on you can exit the virtual environment with the `deactivate` command)*
 
 Now we can download and add the python packages we'll use:
 ```shell
-% uv add pandas tqdm torch transformers
+uv add pandas tqdm torch transformers
 ```
 That step may take a moment so stand up if you're sitting down, or sit down if you're standing up.
 
 Now is a good time to initialise your git environment (`brew install git` if you don't aready have git installed):
 ```shell
-% git init
+git init
 ```
 Have a look in the .gitignore file that uv has created. This prevents certain files and folders from being tracked by git. Super important for anything credential-related, not that we're using any services that need us to logon in this project, one of the benefits of playing with local LLMs!
 
 Make your first commit:
 ```shell
-% git add *
-% git commit -m "First commit for fine-tuning scripts"
+git add *
+git commit -m "First commit for fine-tuning scripts"
 ```
 
 <sup>*</sup>*If you've configured a remote repository you may as well push that first commit now:*
 ```shell
-% git push
+git push
 ```
 Make git commits as you follow along, from here on I'll assume you're doing so.
 
@@ -152,7 +152,7 @@ your_project/
 
 ## Source training data
 
-This you'll need to find yourself and pop into a CSV with a couple of column titles, 'input' and 'output'. In my case (this is abbreviated to one city):
+This, you'll need to find yourself and pop into a CSV with a couple of column titles, 'input' and 'output'. In my case (this is abbreviated to one city):
 
 | input                            | output                                                        |
 |----------------------------------|---------------------------------------------------------------|
@@ -221,7 +221,7 @@ Let's walk through what this script does:
 To run the script, make sure your virtual environment is activated and execute:
 
 ```shell
-% uv run dataset_preparation.py
+uv run dataset_preparation.py
 ```
 With our dataset prepared, we're one step closer to generating infinite cities. 
 

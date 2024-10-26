@@ -24,12 +24,12 @@ PRIMARY_LIST_NAME=<the_list_you_want_to_manage_via_CLI>
 
 Install dependencies: 
 ```shell
-% npm install
+npm install
 ```
 
 Run:
 ```shell
-% node anyList_CLI.js
+node anyList_CLI.js
 ```
 
 Away you go. Start adding items!

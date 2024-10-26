@@ -396,14 +396,14 @@ Because I'm a little paranoid about my laptop going to sleep and messing things 
 ```
 
 ```shell
-% ps -a
+ps -a
 
   PID TTY           TIME CMD
 42892 ttys001    0:00.23 /bin/zsh -il
 83642 ttys001    0:00.02 uv run fine_tune_model.py
 42984 ttys003    0:00.08 /bin/zsh -i
 
-% caffeinate -w 42892
+caffeinate -w 42892
 ```
 If it's not too late in your day, you could have a coffee too.
 # ⏳☕️⌛️
@@ -411,9 +411,9 @@ If it's not too late in your day, you could have a coffee too.
 
 Back in [part 1](italo-calvino-infinite-cities-pt1#llm-environment) we made an extra clone of llama.cpp. Jump over to that path in the terminal now and we'll activate its environment and install any required packages. You'll note I'm not using uv here. For whatever reason I had issues with uv and llama.cpp so this is the old way of managing python environments and packages:
 ```shell
-% cd llama.cpp
-% python3 -m venv .venv
-% source .venv/bin/activate
+cd llama.cpp
+python3 -m venv .venv
+source .venv/bin/activate
 llama.cpp% pip install -r requirements.txt
 ```
 Now we've activated and prepared the llama.cpp environment we will use a conversion script to mash together our LoRA fine-tune with the full Mistral-7B model and output a single .gguf file:
@@ -426,7 +426,7 @@ INFO:lora-to-gguf:Model successfully exported to /path/to/your/LLMs/mistral7B-v0
 Now deactivate the llama.cpp environment and cd to your LLMs folder:
 ```shell
 llama.cpp% deactivate
-% cd /path/to/your/LLMs/
+cd /path/to/your/LLMs/
 ```
 ## Import your .gguf model to Ollama
 Create a file called 'Modelfile' with paths to both the base model and fine-tune. The base path in FROM, the fine-tune path in ADAPTER. More details on the Modelfile format [here](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
@@ -439,7 +439,7 @@ ADAPTER /path/to/mistral7B-v0.3-inf-cities-fp16.gguf
 Now import our model into Ollama. We're almost there!
 
 ```shell
-% ollama create infinite-cities-01
+ollama create infinite-cities-01
 
 transferring model data ⠦
 ```

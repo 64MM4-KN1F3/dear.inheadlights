@@ -32,6 +32,9 @@ Run:
 node anyList_CLI.js
 ```
 
-Away you go. Start adding items!
+Away you go! Start adding items.
 
 To quit, type: 'q', 'quit' or 'exit'
+
+Repo here: [https://github.com/64MM4-KN1F3/anylist_cli](https://github.com/64MM4-KN1F3/anylist_cli)
+

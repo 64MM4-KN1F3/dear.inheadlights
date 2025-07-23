@@ -1,5 +1,5 @@
 ---
-title: Focus your Obsidian note taking - Regex Line Filter
+title: Focus your Obsidian note taking - Regex Line Filter 1.3
 publishDate: 2025-07-21
 tags: ["Tech"]
 ---
@@ -20,7 +20,7 @@ Eventually I needed a quick way to check which tasks still needed action/complet
 Here is demo of what it looked like at v1.0  
 ![regex-line-filter demo](https://64mm4-kn1f3.github.io/5RV/regex-line-filter.gif)
 
-Since then some community members suggested some great features in github which are now all implemented:
+Since then some community members suggested some great features which are now all implemented in version 1.3 released this month:
 
 - Recently used filters can be pinned or saved.
 - Saved ‘custom’ filters can be named and hotkey-assigned.

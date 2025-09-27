@@ -66,7 +66,7 @@ bindkey '^L' zsh_llm_suggestions_mlx         # Suggest with MLX
 bindkey '^[l' zsh_llm_suggestions_mlx_explain # Explain with MLX
 ```
 
-_The [README.md](https://www.google.com/search?q=https://github.com/64MM4-KN1F3/zsh-llm-suggestions/blob/main/README.md) on GitHub contains the complete documentation, including setup for cloud providers like OpenAI and GitHub Copilot._
+_The [README.md](https://github.com/64MM4-KN1F3/zsh-llm-suggestions) on GitHub contains the complete documentation, including setup for cloud providers like OpenAI and GitHub Copilot._
 
 **3. Reload your shell:** To apply the changes, restart your terminal or run `exec zsh`.
 

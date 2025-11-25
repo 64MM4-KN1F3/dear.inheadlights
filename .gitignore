@@ -29,5 +29,4 @@ pnpm-debug.log*
 # Notes
 IDEAS.txt
 TODO.txt
-./IDEAS.txt
-./TODO.txt
+NOTES.md

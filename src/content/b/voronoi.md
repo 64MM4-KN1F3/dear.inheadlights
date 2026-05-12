@@ -17,7 +17,7 @@ Square for the wilderness.
 I then ate leaves.  
 I ate leaves for 3 years.  
 They were everywhere,  
-Voronoi, tiling my quail-ia.  
+Voronoi, tiling my quail \*nom\* Leia
 
 Always different,  
 And beautiful, like we.  

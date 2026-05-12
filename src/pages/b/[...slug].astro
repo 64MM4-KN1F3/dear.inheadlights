@@ -1,5 +1,5 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
+import { type CollectionEntry, getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Tag from "../../components/Tag.astro";
 import { format } from "../../lib/utils";
@@ -13,13 +13,13 @@ export async function getStaticPaths() {
     
     const headings = await Promise.all(
         posts.map(async (post) => {
-            const data = await post.render();
+            const data = await render(post);
             return data.headings;
         })
     );
 
     return posts.map((post, index) => ({
-        params: { slug: post.slug },
+        params: { slug: post.id },
         props: { post, headings: headings[index] },
     }));
 }
@@ -30,7 +30,7 @@ type Props = {
 };
 
 const { post, headings } = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
 <BaseLayout pageTitle={post.data.title} headings={headings}>

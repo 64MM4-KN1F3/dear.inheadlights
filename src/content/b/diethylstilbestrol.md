@@ -16,11 +16,11 @@ Foot slides in the underbrushing
 
 Pound chambers  
 Think horsepower, not strangers  
-Saolo vanquita, where were you when?  
-We invested in that Asian Unicorn and got rich.
+Saolo vanquita, where were you when,  
+We invested in that Asian Unicorn and got rich off the bone.
 
 Hot on the heels of the Proso,  
-Pagnosia, Poly-plastics  
+Pagnosia, Poly-plastination  
 Between trunks, limbs, faces  
 Homo-amorous-masterbation  
 

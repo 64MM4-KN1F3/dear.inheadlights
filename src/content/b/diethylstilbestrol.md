@@ -16,15 +16,15 @@ Foot slides in the underbrushing
 
 Pound chambers  
 Think horsepower, not strangers  
-Saolo vanquita, where were you when?
+Saolo vanquita, where were you when?  
 We invested in that Asian Unicorn and got rich.
 
 Hot on the heels of the Proso,  
 Pagnosia, Poly-plastics  
-Between faces, limbs, trunks  
+Between trunks, limbs, faces  
 Homo-amorous-masterbation  
 
-Leaves. Wreckage. Nudey-branch tales:
-Long and short of it,  
+Leaves. Wreckage. Nudey-branch tales:  
+Long and short of it;  
 When you hear hoofbeats  
 Think Horses, not Zebras

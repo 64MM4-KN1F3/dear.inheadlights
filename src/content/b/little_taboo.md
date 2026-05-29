@@ -5,9 +5,9 @@ tags: ["Poetry"]
 ---
 
 There is nothing quite,  
-Like being somewhere that you're  
-Not supposed to be  
+Like being somewhere that you're,  
+Not supposed to be.  
 
 https://youtu.be/FTWNnmymMc4?si=opBFZB3GA5GN3ykdWb  
   
-(you filth, it's not all about that Anne... US-plundering! I-Am-Shocked!)
+__(hiding, backwards inside of me. I feel so unafraid. Annie.... hold me a little tighter. I might just... Slip. away.)__

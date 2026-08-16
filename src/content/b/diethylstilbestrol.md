@@ -24,7 +24,10 @@ Pagnosia, Poly-plastination
 Between trunks, limbs, faces  
 Homo-amorous-masterbation  
 
-Leaves. Wreckage. Nudey-branch tales:  
-Long and short of it;  
+Leaves. Wreckage. Nudey-branch tales.  
+Long dead scratchings, like, 'Save the whales!'  
+
+A fossilised coccyx erodes on the shore.. Where was I again? Ah yes.  
+The long and short of it:  
 When you hear hoofbeats  
-Think Horses, not Zebras
+Think Horses, not Zebras  

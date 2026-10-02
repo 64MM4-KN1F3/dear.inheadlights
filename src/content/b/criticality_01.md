@@ -1,7 +1,7 @@
 ---
 title: Criticality
 publishDate: 2026-10-03
-tags: ["Poetry"]
+tags: ["Chaos", "Limits", "Criticality", "Art"]
 ---
 
 ![Lorenz Image](../../assets/criticality/01.png)

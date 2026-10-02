@@ -1,0 +1,37 @@
+---
+title: Criticality
+publishDate: 2026-10-03
+tags: ["Poetry"]
+---
+
+![Lorenz Image](../../assets/criticality/01.png)
+![Lorenz Image](../../assets/criticality/02.png)
+![Lorenz Image](../../assets/criticality/03.png)
+![Lorenz Image](../../assets/criticality/04.png)
+![Lorenz Image](../../assets/criticality/05.png)
+![Lorenz Image](../../assets/criticality/06.png)
+![Lorenz Image](../../assets/criticality/07.png)
+![Lorenz Image](../../assets/criticality/08.png)
+![Lorenz Image](../../assets/criticality/09.png)
+![Lorenz Image](../../assets/criticality/10.png)
+![Lorenz Image](../../assets/criticality/11.png)
+![Lorenz Image](../../assets/criticality/12.png)
+![Lorenz Image](../../assets/criticality/13.png)
+![Lorenz Image](../../assets/criticality/14.png)
+![Lorenz Image](../../assets/criticality/15.png)
+![Lorenz Image](../../assets/criticality/16.png)
+![Lorenz Image](../../assets/criticality/17.png)
+![Lorenz Image](../../assets/criticality/18.png)
+![Lorenz Image](../../assets/criticality/19.png)
+![Lorenz Image](../../assets/criticality/20.png)
+![Lorenz Image](../../assets/criticality/21.png)
+![Lorenz Image](../../assets/criticality/22.png)
+![Lorenz Image](../../assets/criticality/23.png)
+![Lorenz Image](../../assets/criticality/24.png)
+![Lorenz Image](../../assets/criticality/25.png)
+![Lorenz Image](../../assets/criticality/26.png)
+![Lorenz Image](../../assets/criticality/27.png)
+![Lorenz Image](../../assets/criticality/28.png)
+![Lorenz Image](../../assets/criticality/29.png)
+![Lorenz Image](../../assets/criticality/30.png)
+![Lorenz Image](../../assets/criticality/31.png)

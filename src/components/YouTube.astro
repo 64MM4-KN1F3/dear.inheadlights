@@ -1,0 +1,10 @@
+﻿---
+// src/components/YouTube.astro
+import {YouTube} from 'astro-lazy-youtube-embed'
+import type {ComponentProps} from 'astro/types'
+
+type Props = ComponentProps<typeof YouTube>
+
+const {thumbnailRes = 'maxres', ...props} = Astro.props
+---
+<YouTube {...props} thumbnailRes={thumbnailRes} />

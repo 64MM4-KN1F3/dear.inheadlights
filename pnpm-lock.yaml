@@ -17,6 +17,9 @@ importers:
       astro-expressive-code:
         specifier: ^0.37.0
         version: 0.37.0(astro@6.3.1(@types/node@24.10.1)(jiti@1.21.6)(rollup@4.53.3)(yaml@2.5.0))
+      astro-lazy-youtube-embed:
+        specifier: ^0.7.0
+        version: 0.7.0(astro@6.3.1(@types/node@24.10.1)(jiti@1.21.6)(rollup@4.53.3)(yaml@2.5.0))
       sharp:
         specifier: ^0.34.5
         version: 0.34.5
@@ -636,6 +639,7 @@ packages:
 
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
@@ -681,6 +685,11 @@ packages:
     resolution: {integrity: sha512-ElWiCQHVQh5+l8fvGRgctvxEw63G/KEZgRi60ApPsHK6NsexgPZENk3bnHzbCpigCgh/L9k/yJ+3zOyuhoPqhQ==}
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
+
+  astro-lazy-youtube-embed@0.7.0:
+    resolution: {integrity: sha512-oJEtN+12ktQecoHBWX0XRycNeQ2kz+yyuYHF4mSc4FpUEsb6Urv8WsOpBbaHXZK8ofHWPLIeAdFUNj4w6ChXVQ==}
+    peerDependencies:
+      astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta || ^5.0.0-beta || ^6.0.0-beta || ^7.0.0-beta
 
   astro@6.3.1:
     resolution: {integrity: sha512-atz6dmkE3Gu24bDgb7g2RE/BYnKqPYIHd6hTUM1UXvu/i7qNZOKLAqEHvgYpv9PQVcgWsXpk4/OOXZ0E/FzvSQ==}
@@ -1956,6 +1965,9 @@ packages:
     resolution: {integrity: sha512-4LCcse/U2MHZ63HAJVE+v71o7yOdIe4cZ70Wpf8D/IyjDKYQLV5GD46B+hSTjJsvV5PztjvHoU580EftxjDZFQ==}
     engines: {node: '>=12.20'}
 
+  youtube-embed-html@0.1.0:
+    resolution: {integrity: sha512-PnziqjX0MbKvDTG3v1NCmpD1Dg7c0qg5CGkQ3RQ2Dgt86NwnfHCDiaRrmY5SOsiIAxG3ZOh4NGQiBa2m8VlhTA==}
+
   zod@4.4.3:
     resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
@@ -2510,6 +2522,11 @@ snapshots:
     dependencies:
       astro: 6.3.1(@types/node@24.10.1)(jiti@1.21.6)(rollup@4.53.3)(yaml@2.5.0)
       rehype-expressive-code: 0.37.0
+
+  astro-lazy-youtube-embed@0.7.0(astro@6.3.1(@types/node@24.10.1)(jiti@1.21.6)(rollup@4.53.3)(yaml@2.5.0)):
+    dependencies:
+      astro: 6.3.1(@types/node@24.10.1)(jiti@1.21.6)(rollup@4.53.3)(yaml@2.5.0)
+      youtube-embed-html: 0.1.0
 
   astro@6.3.1(@types/node@24.10.1)(jiti@1.21.6)(rollup@4.53.3)(yaml@2.5.0):
     dependencies:
@@ -4155,6 +4172,8 @@ snapshots:
   yargs-parser@22.0.0: {}
 
   yocto-queue@1.2.2: {}
+
+  youtube-embed-html@0.1.0: {}
 
   zod@4.4.3: {}
 
